@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testsuite">
+              <span class="suite-name border-passed">testsuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testsuite">
+                    <span>C:\Users\VidhiPrime\IdeaProjects\week15-cv-library-uk\src\test\java\resources\runners\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testsuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testsuite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testsuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testsuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testsuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testsuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testsuite" class="hide-methods passed suite-testsuite"> (hide)</a> <!-- hide-methods passed suite-testsuite -->
+                      <a href="#" panel-name="suite-testsuite" class="show-methods passed suite-testsuite"> (show)</a> <!-- show-methods passed suite-testsuite -->
+                    </span>
+                    <div class="method-list-content passed suite-testsuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Health And Safety Advisor, Harrow, up to 5 miles, 15000, 20000, Per annum, Any, Health And Safety Ad...)">verifyJobSearchResultUsingDifferentDataSet(Health And Safety Advisor, Harrow, up to 5 miles, 15000, 20000, Per annum, Any, Health And Safety Ad...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Customer Assistant, watford, up to 10 miles, 10000, 25000, Per day, Part Time, Part Time Customer As...)">verifyJobSearchResultUsingDifferentDataSet(Customer Assistant, watford, up to 10 miles, 10000, 25000, Per day, Part Time, Part Time Customer As...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 50000, Per annum, Permanent, Permanent Tester jobs in Harrow o...)">verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 50000, Per annum, Permanent, Permanent Tester jobs in Harrow o...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Accounts Assistant, Harrow, up to 2 miles, 1500, 30000, Per week, Any, Accounts Assistant jobs in Ha...)">verifyJobSearchResultUsingDifferentDataSet(Accounts Assistant, Harrow, up to 2 miles, 1500, 30000, Per week, Any, Accounts Assistant jobs in Ha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Tester, Barbican,Grater London, up to 5 miles, 40000, 60000, Per annum, Contract, Contract Tester jo...)">verifyJobSearchResultUsingDifferentDataSet(Tester, Barbican,Grater London, up to 5 miles, 40000, 60000, Per annum, Contract, Contract Tester jo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testsuite" title="uk.co.library.testsuite.JobSearchTest" hash-for-method="verifyJobSearchResultUsingDifferentDataSet(Customer Service Advisor, Barbican, Greater London, up to 7 miles, 25000, 35000, Per annum, Any, Cus...)">verifyJobSearchResultUsingDifferentDataSet(Customer Service Advisor, Barbican, Greater London, up to 7 miles, 25000, 35000, Per annum, Any, Cus...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testsuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testsuite" class="panel testsuite">
+          <div class="suite-testsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">uk.co.library.testsuite.JobSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Health And Safety Advisor, Harrow, up to 5 miles, 15000, 20000, Per annum, Any, Health And Safety Ad...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Health And Safety Advisor, Harrow, up to 5 miles, 15000, 20000, Per annum, Any, Health And Safety Ad...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Health And Safety Advisor, Harrow, up to 5 miles, 15000, 20000, Per annum, Any, Health And Safety Advisor jobs in Harrow on the Hill)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Customer Assistant, watford, up to 10 miles, 10000, 25000, Per day, Part Time, Part Time Customer As...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Customer Assistant, watford, up to 10 miles, 10000, 25000, Per day, Part Time, Part Time Customer As...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Customer Assistant, watford, up to 10 miles, 10000, 25000, Per day, Part Time, Part Time Customer Assistant jobs in Watford)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 50000, Per annum, Permanent, Permanent Tester jobs in Harrow o...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 50000, Per annum, Permanent, Permanent Tester jobs in Harrow o...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Tester, Harrow, up to 5 miles, 30000, 50000, Per annum, Permanent, Permanent Tester jobs in Harrow on the Hill)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Accounts Assistant, Harrow, up to 2 miles, 1500, 30000, Per week, Any, Accounts Assistant jobs in Ha...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Accounts Assistant, Harrow, up to 2 miles, 1500, 30000, Per week, Any, Accounts Assistant jobs in Ha...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Accounts Assistant, Harrow, up to 2 miles, 1500, 30000, Per week, Any, Accounts Assistant jobs in Harrow on the Hill)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Tester, Barbican,Grater London, up to 5 miles, 40000, 60000, Per annum, Contract, Contract Tester jo...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Tester, Barbican,Grater London, up to 5 miles, 40000, 60000, Per annum, Contract, Contract Tester jo...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Tester, Barbican,Grater London, up to 5 miles, 40000, 60000, Per annum, Contract, Contract Tester jobs in Barbican)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJobSearchResultUsingDifferentDataSet(Customer Service Advisor, Barbican, Greater London, up to 7 miles, 25000, 35000, Per annum, Any, Cus...)">
+                  </a> <!-- verifyJobSearchResultUsingDifferentDataSet(Customer Service Advisor, Barbican, Greater London, up to 7 miles, 25000, 35000, Per annum, Any, Cus...) -->
+                  <span class="method-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                  <span class="parameters">(Customer Service Advisor, Barbican, Greater London, up to 7 miles, 25000, 35000, Per annum, Any, Customer Service Advisor jobs in Barbican)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testsuite-class-passed -->
+        </div> <!-- panel testsuite -->
+        <div panel-name="test-xml-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\VidhiPrime\IdeaProjects\week15-cv-library-uk\src\test\java\resources\runners\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;testsuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;uk.co.library.customlisteners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;uk.co.library.testsuite.JobSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+&lt;/suite&gt; &lt;!-- testsuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyJobSearchResultUsingDifferentDataSet</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testsuite');
+function tableData_testsuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(0, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(0, 3, 4051);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(1, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(1, 3, 3593);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(2, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(2, 3, 3401);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(3, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(3, 3, 3394);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(4, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(4, 3, 3195);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyJobSearchResultUsingDifferentDataSet')
+data.setCell(5, 2, 'uk.co.library.testsuite.JobSearchTest')
+data.setCell(5, 3, 3130);
+window.suiteTableData['testsuite']= { tableData: data, tableDiv: 'times-div-testsuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-testsuite">
+              </div> <!-- times-div-testsuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Health And Safety Advisor, Harrow, up to 5 miles, 15000, 20000, Per annum, Any, Health And Safety Ad...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter job titleHealth And Safety Advisor</span>
+                <span class="reporter-method-output">Enter locationHarrow</span>
+                <span class="reporter-method-output">Select distance [[ChromeDriver: chrome on WINDOWS (22a9327fcd0923e48e011e0e94bb1898)] -> id: distance]</span>
+                <span class="reporter-method-output">Click on more search option link [[ChromeDriver: chrome on WINDOWS (22a9327fcd0923e48e011e0e94bb1898)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">Enter minimum salary [[ChromeDriver: chrome on WINDOWS (22a9327fcd0923e48e011e0e94bb1898)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary [[ChromeDriver: chrome on WINDOWS (22a9327fcd0923e48e011e0e94bb1898)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type[[ChromeDriver: chrome on WINDOWS (22a9327fcd0923e48e011e0e94bb1898)] -> id: salarytype]</span>
+                <span class="reporter-method-output">Select job type[[ChromeDriver: chrome on WINDOWS (22a9327fcd0923e48e011e0e94bb1898)] -> id: tempperm]</span>
+                <span class="reporter-method-output">Click on find job search button</span>
+                <span class="reporter-method-output">Verify the result[[ChromeDriver: chrome on WINDOWS (22a9327fcd0923e48e011e0e94bb1898)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Customer Assistant, watford, up to 10 miles, 10000, 25000, Per day, Part Time, Part Time Customer As...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter job titleCustomer Assistant</span>
+                <span class="reporter-method-output">Enter locationwatford</span>
+                <span class="reporter-method-output">Select distance [[ChromeDriver: chrome on WINDOWS (f5ad3367f9ad2b79da308790243ae874)] -> id: distance]</span>
+                <span class="reporter-method-output">Click on more search option link [[ChromeDriver: chrome on WINDOWS (f5ad3367f9ad2b79da308790243ae874)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">Enter minimum salary [[ChromeDriver: chrome on WINDOWS (f5ad3367f9ad2b79da308790243ae874)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary [[ChromeDriver: chrome on WINDOWS (f5ad3367f9ad2b79da308790243ae874)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type[[ChromeDriver: chrome on WINDOWS (f5ad3367f9ad2b79da308790243ae874)] -> id: salarytype]</span>
+                <span class="reporter-method-output">Select job type[[ChromeDriver: chrome on WINDOWS (f5ad3367f9ad2b79da308790243ae874)] -> id: tempperm]</span>
+                <span class="reporter-method-output">Click on find job search button</span>
+                <span class="reporter-method-output">Verify the result[[ChromeDriver: chrome on WINDOWS (f5ad3367f9ad2b79da308790243ae874)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 50000, Per annum, Permanent, Permanent Tester jobs in Harrow o...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter job titleTester</span>
+                <span class="reporter-method-output">Enter locationHarrow</span>
+                <span class="reporter-method-output">Select distance [[ChromeDriver: chrome on WINDOWS (463bc3167a41ddb5e5bb90f21f644a0a)] -> id: distance]</span>
+                <span class="reporter-method-output">Click on more search option link [[ChromeDriver: chrome on WINDOWS (463bc3167a41ddb5e5bb90f21f644a0a)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">Enter minimum salary [[ChromeDriver: chrome on WINDOWS (463bc3167a41ddb5e5bb90f21f644a0a)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary [[ChromeDriver: chrome on WINDOWS (463bc3167a41ddb5e5bb90f21f644a0a)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type[[ChromeDriver: chrome on WINDOWS (463bc3167a41ddb5e5bb90f21f644a0a)] -> id: salarytype]</span>
+                <span class="reporter-method-output">Select job type[[ChromeDriver: chrome on WINDOWS (463bc3167a41ddb5e5bb90f21f644a0a)] -> id: tempperm]</span>
+                <span class="reporter-method-output">Click on find job search button</span>
+                <span class="reporter-method-output">Verify the result[[ChromeDriver: chrome on WINDOWS (463bc3167a41ddb5e5bb90f21f644a0a)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Accounts Assistant, Harrow, up to 2 miles, 1500, 30000, Per week, Any, Accounts Assistant jobs in Ha...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter job titleAccounts Assistant</span>
+                <span class="reporter-method-output">Enter locationHarrow</span>
+                <span class="reporter-method-output">Select distance [[ChromeDriver: chrome on WINDOWS (f5077a21cbd837c55dc3953a2a3fd113)] -> id: distance]</span>
+                <span class="reporter-method-output">Click on more search option link [[ChromeDriver: chrome on WINDOWS (f5077a21cbd837c55dc3953a2a3fd113)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">Enter minimum salary [[ChromeDriver: chrome on WINDOWS (f5077a21cbd837c55dc3953a2a3fd113)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary [[ChromeDriver: chrome on WINDOWS (f5077a21cbd837c55dc3953a2a3fd113)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type[[ChromeDriver: chrome on WINDOWS (f5077a21cbd837c55dc3953a2a3fd113)] -> id: salarytype]</span>
+                <span class="reporter-method-output">Select job type[[ChromeDriver: chrome on WINDOWS (f5077a21cbd837c55dc3953a2a3fd113)] -> id: tempperm]</span>
+                <span class="reporter-method-output">Click on find job search button</span>
+                <span class="reporter-method-output">Verify the result[[ChromeDriver: chrome on WINDOWS (f5077a21cbd837c55dc3953a2a3fd113)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Tester, Barbican,Grater London, up to 5 miles, 40000, 60000, Per annum, Contract, Contract Tester jo...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter job titleTester</span>
+                <span class="reporter-method-output">Enter locationBarbican,Grater London</span>
+                <span class="reporter-method-output">Select distance [[ChromeDriver: chrome on WINDOWS (09b0adba4dffce21c2c7ded24ecbc164)] -> id: distance]</span>
+                <span class="reporter-method-output">Click on more search option link [[ChromeDriver: chrome on WINDOWS (09b0adba4dffce21c2c7ded24ecbc164)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">Enter minimum salary [[ChromeDriver: chrome on WINDOWS (09b0adba4dffce21c2c7ded24ecbc164)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary [[ChromeDriver: chrome on WINDOWS (09b0adba4dffce21c2c7ded24ecbc164)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type[[ChromeDriver: chrome on WINDOWS (09b0adba4dffce21c2c7ded24ecbc164)] -> id: salarytype]</span>
+                <span class="reporter-method-output">Select job type[[ChromeDriver: chrome on WINDOWS (09b0adba4dffce21c2c7ded24ecbc164)] -> id: tempperm]</span>
+                <span class="reporter-method-output">Click on find job search button</span>
+                <span class="reporter-method-output">Verify the result[[ChromeDriver: chrome on WINDOWS (09b0adba4dffce21c2c7ded24ecbc164)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyJobSearchResultUsingDifferentDataSet(Customer Service Advisor, Barbican, Greater London, up to 7 miles, 25000, 35000, Per annum, Any, Cus...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter job titleCustomer Service Advisor</span>
+                <span class="reporter-method-output">Enter locationBarbican, Greater London</span>
+                <span class="reporter-method-output">Select distance [[ChromeDriver: chrome on WINDOWS (70fb98ed2cc7fa858f7aae41c64e4bdd)] -> id: distance]</span>
+                <span class="reporter-method-output">Click on more search option link [[ChromeDriver: chrome on WINDOWS (70fb98ed2cc7fa858f7aae41c64e4bdd)] -> id: toggle-hp-search]</span>
+                <span class="reporter-method-output">Enter minimum salary [[ChromeDriver: chrome on WINDOWS (70fb98ed2cc7fa858f7aae41c64e4bdd)] -> id: salarymin]</span>
+                <span class="reporter-method-output">Enter maximum salary [[ChromeDriver: chrome on WINDOWS (70fb98ed2cc7fa858f7aae41c64e4bdd)] -> id: salarymax]</span>
+                <span class="reporter-method-output">Select salary Type[[ChromeDriver: chrome on WINDOWS (70fb98ed2cc7fa858f7aae41c64e4bdd)] -> id: salarytype]</span>
+                <span class="reporter-method-output">Select job type[[ChromeDriver: chrome on WINDOWS (70fb98ed2cc7fa858f7aae41c64e4bdd)] -> id: tempperm]</span>
+                <span class="reporter-method-output">Click on find job search button</span>
+                <span class="reporter-method-output">Verify the result[[ChromeDriver: chrome on WINDOWS (70fb98ed2cc7fa858f7aae41c64e4bdd)] -> xpath: //h1[@class='search-header__title']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">uk.co.library.testsuite.JobSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">6270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Tester, Harrow, up to 5 miles, 30000, 50000, Per annum, Permanent, Permanent Tester jobs in Harrow o...)</span>
+                <span class="method-start">6302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9709 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">13705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Tester, Barbican,Grater London, up to 5 miles, 40000, 60000, Per annum, Contract, Contract Tester jo...)</span>
+                <span class="method-start">13707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18010 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">21210 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Accounts Assistant, Harrow, up to 2 miles, 1500, 30000, Per week, Any, Accounts Assistant jobs in Ha...)</span>
+                <span class="method-start">21213 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">28430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Customer Service Advisor, Barbican, Greater London, up to 7 miles, 25000, 35000, Per annum, Any, Cus...)</span>
+                <span class="method-start">28431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">36326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Health And Safety Advisor, Harrow, up to 5 miles, 15000, 20000, Per annum, Any, Health And Safety Ad...)</span>
+                <span class="method-start">36327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40407 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">43704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJobSearchResultUsingDifferentDataSet(Customer Assistant, watford, up to 10 miles, 10000, 25000, Per day, Part Time, Part Time Customer As...)</span>
+                <span class="method-start">43706 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46836 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

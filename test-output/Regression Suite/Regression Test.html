@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 15 17:47:21 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>45 seconds (45450 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuite.JobSearchTest<br>Parameters: Customer Assistant, watford, up to 10 miles, 10000, 25000, Per day, Part Time, Part Time Customer Assistant jobs in Watford<br/>
+<a href="#Output-477463877" onClick='toggleBox("Output-477463877", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-477463877" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-477463877">
+Enter job titleCustomer Assistant<br/>
+Enter locationwatford<br/>
+Select distance [[ChromeDriver: chrome on WINDOWS (801cb7581cb4571589519e0996e4f3f3)] -> id: distance]<br/>
+Click on more search option link [[ChromeDriver: chrome on WINDOWS (801cb7581cb4571589519e0996e4f3f3)] -> id: toggle-hp-search]<br/>
+Enter minimum salary [[ChromeDriver: chrome on WINDOWS (801cb7581cb4571589519e0996e4f3f3)] -> id: salarymin]<br/>
+Enter maximum salary [[ChromeDriver: chrome on WINDOWS (801cb7581cb4571589519e0996e4f3f3)] -> id: salarymax]<br/>
+Select salary Type[[ChromeDriver: chrome on WINDOWS (801cb7581cb4571589519e0996e4f3f3)] -> id: salarytype]<br/>
+Select job type[[ChromeDriver: chrome on WINDOWS (801cb7581cb4571589519e0996e4f3f3)] -> id: tempperm]<br/>
+Click on find job search button<br/>
+Verify the result[[ChromeDriver: chrome on WINDOWS (801cb7581cb4571589519e0996e4f3f3)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>uk.co.library.testsuite.JobSearchTest@1877ab81</td></tr>
+<tr>
+<td title='uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuite.JobSearchTest<br>Parameters: Accounts Assistant, Harrow, up to 2 miles, 1500, 30000, Per week, Any, Accounts Assistant jobs in Harrow on the Hill<br/>
+<a href="#Output-2114687352" onClick='toggleBox("Output-2114687352", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2114687352" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2114687352">
+Enter job titleAccounts Assistant<br/>
+Enter locationHarrow<br/>
+Select distance [[ChromeDriver: chrome on WINDOWS (51a72a287f3cbb8f235729cacb2ba3f9)] -> id: distance]<br/>
+Click on more search option link [[ChromeDriver: chrome on WINDOWS (51a72a287f3cbb8f235729cacb2ba3f9)] -> id: toggle-hp-search]<br/>
+Enter minimum salary [[ChromeDriver: chrome on WINDOWS (51a72a287f3cbb8f235729cacb2ba3f9)] -> id: salarymin]<br/>
+Enter maximum salary [[ChromeDriver: chrome on WINDOWS (51a72a287f3cbb8f235729cacb2ba3f9)] -> id: salarymax]<br/>
+Select salary Type[[ChromeDriver: chrome on WINDOWS (51a72a287f3cbb8f235729cacb2ba3f9)] -> id: salarytype]<br/>
+Select job type[[ChromeDriver: chrome on WINDOWS (51a72a287f3cbb8f235729cacb2ba3f9)] -> id: tempperm]<br/>
+Click on find job search button<br/>
+Verify the result[[ChromeDriver: chrome on WINDOWS (51a72a287f3cbb8f235729cacb2ba3f9)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>uk.co.library.testsuite.JobSearchTest@1877ab81</td></tr>
+<tr>
+<td title='uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuite.JobSearchTest<br>Parameters: Health And Safety Advisor, Harrow, up to 5 miles, 15000, 20000, Per annum, Any, Health And Safety Advisor jobs in Harrow on the Hill<br/>
+<a href="#Output-255839577" onClick='toggleBox("Output-255839577", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-255839577" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-255839577">
+Enter job titleHealth And Safety Advisor<br/>
+Enter locationHarrow<br/>
+Select distance [[ChromeDriver: chrome on WINDOWS (296c354cfcbfb291100fa61a984f31de)] -> id: distance]<br/>
+Click on more search option link [[ChromeDriver: chrome on WINDOWS (296c354cfcbfb291100fa61a984f31de)] -> id: toggle-hp-search]<br/>
+Enter minimum salary [[ChromeDriver: chrome on WINDOWS (296c354cfcbfb291100fa61a984f31de)] -> id: salarymin]<br/>
+Enter maximum salary [[ChromeDriver: chrome on WINDOWS (296c354cfcbfb291100fa61a984f31de)] -> id: salarymax]<br/>
+Select salary Type[[ChromeDriver: chrome on WINDOWS (296c354cfcbfb291100fa61a984f31de)] -> id: salarytype]<br/>
+Select job type[[ChromeDriver: chrome on WINDOWS (296c354cfcbfb291100fa61a984f31de)] -> id: tempperm]<br/>
+Click on find job search button<br/>
+Verify the result[[ChromeDriver: chrome on WINDOWS (296c354cfcbfb291100fa61a984f31de)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>uk.co.library.testsuite.JobSearchTest@1877ab81</td></tr>
+<tr>
+<td title='uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuite.JobSearchTest<br>Parameters: Customer Service Advisor, Barbican, Greater London, up to 7 miles, 25000, 35000, Per annum, Any, Customer Service Advisor jobs in Barbican<br/>
+<a href="#Output-666312528" onClick='toggleBox("Output-666312528", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-666312528" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-666312528">
+Enter job titleCustomer Service Advisor<br/>
+Enter locationBarbican, Greater London<br/>
+Select distance [[ChromeDriver: chrome on WINDOWS (e9a9c2033be4452a0eeb5465ce017b5b)] -> id: distance]<br/>
+Click on more search option link [[ChromeDriver: chrome on WINDOWS (e9a9c2033be4452a0eeb5465ce017b5b)] -> id: toggle-hp-search]<br/>
+Enter minimum salary [[ChromeDriver: chrome on WINDOWS (e9a9c2033be4452a0eeb5465ce017b5b)] -> id: salarymin]<br/>
+Enter maximum salary [[ChromeDriver: chrome on WINDOWS (e9a9c2033be4452a0eeb5465ce017b5b)] -> id: salarymax]<br/>
+Select salary Type[[ChromeDriver: chrome on WINDOWS (e9a9c2033be4452a0eeb5465ce017b5b)] -> id: salarytype]<br/>
+Select job type[[ChromeDriver: chrome on WINDOWS (e9a9c2033be4452a0eeb5465ce017b5b)] -> id: tempperm]<br/>
+Click on find job search button<br/>
+Verify the result[[ChromeDriver: chrome on WINDOWS (e9a9c2033be4452a0eeb5465ce017b5b)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>uk.co.library.testsuite.JobSearchTest@1877ab81</td></tr>
+<tr>
+<td title='uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuite.JobSearchTest<br>Parameters: Tester, Harrow, up to 5 miles, 30000, 50000, Per annum, Permanent, Permanent Tester jobs in Harrow on the Hill<br/>
+<a href="#Output-99770475" onClick='toggleBox("Output-99770475", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99770475" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99770475">
+Enter job titleTester<br/>
+Enter locationHarrow<br/>
+Select distance [[ChromeDriver: chrome on WINDOWS (b5c14a2c21972c4eeaaa85d55000b2ac)] -> id: distance]<br/>
+Click on more search option link [[ChromeDriver: chrome on WINDOWS (b5c14a2c21972c4eeaaa85d55000b2ac)] -> id: toggle-hp-search]<br/>
+Enter minimum salary [[ChromeDriver: chrome on WINDOWS (b5c14a2c21972c4eeaaa85d55000b2ac)] -> id: salarymin]<br/>
+Enter maximum salary [[ChromeDriver: chrome on WINDOWS (b5c14a2c21972c4eeaaa85d55000b2ac)] -> id: salarymax]<br/>
+Select salary Type[[ChromeDriver: chrome on WINDOWS (b5c14a2c21972c4eeaaa85d55000b2ac)] -> id: salarytype]<br/>
+Select job type[[ChromeDriver: chrome on WINDOWS (b5c14a2c21972c4eeaaa85d55000b2ac)] -> id: tempperm]<br/>
+Click on find job search button<br/>
+Verify the result[[ChromeDriver: chrome on WINDOWS (b5c14a2c21972c4eeaaa85d55000b2ac)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>uk.co.library.testsuite.JobSearchTest@1877ab81</td></tr>
+<tr>
+<td title='uk.co.library.testsuite.JobSearchTest.verifyJobSearchResultUsingDifferentDataSet()'><b>verifyJobSearchResultUsingDifferentDataSet</b><br>Test class: uk.co.library.testsuite.JobSearchTest<br>Parameters: Tester, Barbican,Grater London, up to 5 miles, 40000, 60000, Per annum, Contract, Contract Tester jobs in Barbican<br/>
+<a href="#Output-3392189" onClick='toggleBox("Output-3392189", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3392189" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3392189">
+Enter job titleTester<br/>
+Enter locationBarbican,Grater London<br/>
+Select distance [[ChromeDriver: chrome on WINDOWS (9e65e89f3887265a1a3be6c860470ba3)] -> id: distance]<br/>
+Click on more search option link [[ChromeDriver: chrome on WINDOWS (9e65e89f3887265a1a3be6c860470ba3)] -> id: toggle-hp-search]<br/>
+Enter minimum salary [[ChromeDriver: chrome on WINDOWS (9e65e89f3887265a1a3be6c860470ba3)] -> id: salarymin]<br/>
+Enter maximum salary [[ChromeDriver: chrome on WINDOWS (9e65e89f3887265a1a3be6c860470ba3)] -> id: salarymax]<br/>
+Select salary Type[[ChromeDriver: chrome on WINDOWS (9e65e89f3887265a1a3be6c860470ba3)] -> id: salarytype]<br/>
+Select job type[[ChromeDriver: chrome on WINDOWS (9e65e89f3887265a1a3be6c860470ba3)] -> id: tempperm]<br/>
+Click on find job search button<br/>
+Verify the result[[ChromeDriver: chrome on WINDOWS (9e65e89f3887265a1a3be6c860470ba3)] -> xpath: //h1[@class='search-header__title']]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>uk.co.library.testsuite.JobSearchTest@1877ab81</td></tr>
+</table><p>
+</body>
+</html>
